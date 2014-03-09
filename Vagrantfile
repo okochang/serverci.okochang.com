@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       aws.private_ip_address = "10.0.2.100"
       aws.elastic_ip = true
       aws.security_groups = ["sg-b72d31db"]
-      aws.ami = "ami-31e86030"
+      aws.ami = "ami-b5c0b1b4"
       override.ssh.username = "root"
       override.ssh.private_key_path = "~/.ssh/okochang-key.pem"
     end
